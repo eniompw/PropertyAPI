@@ -7,7 +7,7 @@ querystring = {
 
 headers = {
     "x-rapidapi-host": "zoopla-uk.p.rapidapi.com",
-    "x-rapidapi-key": ""  # Replace with your actual RapidAPI key
+    "x-rapidapi-key": "YOUR_RAPIDAPI_KEY" # Replace with your actual RapidAPI key
 }
 
 response = requests.get(url, headers=headers, params=querystring)
